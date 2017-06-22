@@ -2,5 +2,5 @@ configuration : Release
 before_build :
 -nuget restore
 build:
- verbosity :minimal
+ verbosity: minimal
  publish_wap: true
